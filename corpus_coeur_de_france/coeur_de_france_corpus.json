@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "nom": "Coeur de France",
+    "type": "corpus_programmatique",
+    "version": "2026-05-10",
+    "langue": "fr",
+    "source_interne": [
+      "Programme politique consolide 2026",
+      "Programme budgetaire complet v3",
+      "Site vitrine HTML",
+      "Restitution nettoyee des derniers elements depuis fevrier"
+    ],
+    "exclusions": [
+      "ancien projet personnel de simulation politique"
+    ]
+  },
+  "identite": {
+    "nom": "Coeur de France",
+    "valeurs": [
+      "Responsabilite",
+      "Justice",
+      "Respect"
+    ],
+    "doctrine": "Programme de resultats, d'ordre, de souverainete, de justice et de rigueur budgetaire.",
+    "positionnement": {
+      "ligne": "souverainiste, liberale sur l'energie productive, sociale pour les plus vulnerables, ferme sur l'application de la loi",
+      "formule_a_arbitrer": "ni droite ni gauche",
+      "risque": "La formule peut brouiller la ligne publique si elle n'est pas assumee explicitement."
+    },
+    "message_fonction_publique": "Pas de licenciement massif. Reaffectation prioritaire vers sante, education et securite."
+  },
+  "architecture_institutionnelle": {
+    "statut": "consolide",
+    "prealable": "Reforme constitutionnelle avant application du programme.",
+    "mesures": [
+      "Suppression du Senat",
+      "Parlement monocameral de 300 elus regionaux",
+      "Suppression du 49.3",
+      "RIC sur tous sujets avec controle juridique prealable",
+      "Conseil constitutionnel reforme : 10 juristes et 5 citoyens tires au sort",
+      "Fin des nominations presidentielles unilaterales",
+      "Continuite de l'Etat garantie pendant la transition"
+    ],
+    "points_attention": [
+      "Difficulte juridique et politique elevee",
+      "Calendrier de transition a formaliser",
+      "Mode de scrutin des 300 elus regionaux a definir"
+    ]
+  },
+  "programme": {
+    "domaines_couverts": [
+      "Education",
+      "Securite",
+      "Immigration",
+      "Economie et travail",
+      "Finances publiques",
+      "Reforme de l'Etat",
+      "Institutions et probite",
+      "Sante",
+      "Retraites",
+      "Identite et laicite",
+      "Souverainete et politique etrangere",
+      "Numerique et IA",
+      "Justice",
+      "Ecologie",
+      "Famille et social",
+      "Terrorisme et radicalisation",
+      "Outre-mer",
+      "Transports et infrastructures",
+      "Medias et liberte d'expression"
+    ],
+    "mesures": [
+      {
+        "id": "cdf-institutions-refondation",
+        "domaine": "Institutions",
+        "portefeuille": "Premier ministre",
+        "titre": "Refondation institutionnelle",
+        "resume": "Transformer les institutions autour d'un Parlement monocameral, d'un RIC renforce, d'un Conseil constitutionnel reforme et d'une limitation des nominations unilaterales.",
+        "statut": "consolide",
+        "risques": [
+          "majorite constitutionnelle",
+          "controle juridictionnel",
+          "resistance institutionnelle"
+        ]
+      },
+      {
+        "id": "cdf-education-transmission",
+        "domaine": "Education",
+        "portefeuille": "Education",
+        "titre": "Ecole de transmission et d'autorite",
+        "resume": "Uniforme obligatoire, telephones interdits jusqu'au lycee inclus, revalorisation des enseignants, service civique obligatoire, priorite au francais et interdiction de l'ecriture inclusive dans les documents officiels et a l'ecole.",
+        "statut": "consolide",
+        "risques": [
+          "acceptabilite sociale",
+          "cout de revalorisation",
+          "application dans les etablissements"
+        ]
+      },
+      {
+        "id": "cdf-securite-tolerance-zero",
+        "domaine": "Securite",
+        "portefeuille": "Interieur",
+        "titre": "Tolerance zero et reconquete territoriale",
+        "resume": "Renforcer la lutte contre cannabis, recidive, zones de non-droit, trafics, violences urbaines, armes, cybercriminalite et violences intrafamiliales, avec construction massive de places de prison.",
+        "statut": "consolide",
+        "risques": [
+          "tension sociale",
+          "cout penal et carceral",
+          "encadrement juridique de la reconnaissance faciale"
+        ]
+      },
+      {
+        "id": "cdf-immigration-choisie",
+        "domaine": "Immigration",
+        "portefeuille": "Interieur",
+        "titre": "Immigration choisie et integration exigeante",
+        "resume": "Passer d'une immigration subie a une immigration choisie selon les besoins nationaux, supprimer le droit du sol automatique et le regroupement familial, executer systematiquement les OQTF et durcir la naturalisation.",
+        "statut": "consolide",
+        "risques": [
+          "contentieux constitutionnel",
+          "contentieux europeen",
+          "pression diplomatique"
+        ]
+      },
+      {
+        "id": "cdf-economie-production",
+        "domaine": "Economie et travail",
+        "portefeuille": "Economie",
+        "titre": "Travail, production et preference nationale",
+        "resume": "Supprimer les 35 heures au profit de la negociation d'entreprise, defiscaliser les heures supplementaires, assumer protectionnisme et reciprocite des normes, relancer les filieres strategiques et moduler la fiscalite du capital.",
+        "statut": "consolide",
+        "risques": [
+          "negociation sociale",
+          "compatibilite europeenne",
+          "effets sectoriels variables"
+        ]
+      },
+      {
+        "id": "cdf-budget-deficit-zero",
+        "domaine": "Finances publiques",
+        "portefeuille": "Budget",
+        "titre": "Deficit zero en trois ans",
+        "resume": "Programmer le retour a l'equilibre budgetaire en annee 3 et le debut du remboursement de la dette en annee 4 par reductions de structures, reformes structurelles, lutte contre fraude et evasion, privatisations et audit des niches fiscales.",
+        "statut": "a_auditer",
+        "risques": [
+          "hypothese de croissance +1,5% par an",
+          "effets macroeconomiques a verifier",
+          "incoherences de trajectoire entre tableaux"
+        ]
+      },
+      {
+        "id": "cdf-etat-sobre",
+        "domaine": "Reforme de l'Etat",
+        "portefeuille": "Budget",
+        "titre": "Etat sobre et fonction publique reaffectee",
+        "resume": "Limiter le gouvernement a 10 ministeres chapeau, supprimer les departements et environ 1000 organismes publics injustifies, fusionner les doublons, reaffecter les agents vers sante, education et securite sans licenciement massif.",
+        "statut": "consolide",
+        "risques": [
+          "capacite de transition administrative",
+          "acceptabilite territoriale",
+          "qualite du service public pendant reorganisation"
+        ]
+      },
+      {
+        "id": "cdf-probite-elus",
+        "domaine": "Institutions et probite",
+        "portefeuille": "Justice",
+        "titre": "Probite et responsabilite des elus",
+        "resume": "Supprimer le 49.3 et la Cour de justice de la Republique, rendre le parquet independant, durcir les peines de corruption, instaurer ineligibilite a vie, transparence patrimoniale et financement public certifie des partis.",
+        "statut": "consolide",
+        "risques": [
+          "reforme constitutionnelle",
+          "equilibre des pouvoirs",
+          "controle effectif"
+        ]
+      },
+      {
+        "id": "cdf-sante-hopital",
+        "domaine": "Sante",
+        "portefeuille": "Sante",
+        "titre": "Hopital public et souverainete sanitaire",
+        "resume": "Renforcer hopital public, lits, urgences et effectifs, contraindre l'installation dans les deserts medicaux, elargir les competences infirmiers et pharmaciens, lutter contre fraude Secu et relocaliser medicaments et stocks strategiques.",
+        "statut": "consolide",
+        "risques": [
+          "cout recurrent",
+          "tension avec professions medicales",
+          "mise en oeuvre territoriale"
+        ]
+      },
+      {
+        "id": "cdf-retraites-capitalisation",
+        "domaine": "Retraites",
+        "portefeuille": "Social",
+        "titre": "Regime universel de retraite par capitalisation",
+        "resume": "Organiser une transition progressive vers un regime universel par capitalisation, supprimer regimes speciaux, garantir droits acquis, creer un fonds souverain public et ouvrir la part contributive a des fonds concurrents.",
+        "statut": "a_auditer",
+        "risques": [
+          "cout de transition non integre au chiffrage central",
+          "acceptabilite sociale faible",
+          "complexite financiere et juridique"
+        ]
+      },
+      {
+        "id": "cdf-identite-laicite",
+        "domaine": "Identite et laicite",
+        "portefeuille": "Culture",
+        "titre": "Identite francaise, laicite et patrimoine",
+        "resume": "Assumer l'identite francaise dans le cadre republicain, etendre l'interdiction des signes religieux aux agents publics et accompagnateurs scolaires, lutter contre communautarisme, proteger le patrimoine chretien et organiser certains referendums societaux.",
+        "statut": "consolide",
+        "risques": [
+          "contentieux juridique",
+          "polarisation culturelle",
+          "communication a cadrer"
+        ]
+      },
+      {
+        "id": "cdf-souverainete-international",
+        "domaine": "Souverainete et politique etrangere",
+        "portefeuille": "Affaires etrangeres",
+        "titre": "Souverainete et diplomatie pragmatique",
+        "resume": "Maintenir et renforcer la dissuasion, relancer le nucleaire civil, conserver l'OTAN, reduire certaines competences europeennes, adopter une mediation en Ukraine, un retrait militaire en Afrique et une neutralite stricte au Moyen-Orient.",
+        "statut": "consolide",
+        "risques": [
+          "pression europeenne",
+          "tensions diplomatiques",
+          "arbitrage entre souverainete et alliances"
+        ]
+      },
+      {
+        "id": "cdf-numerique-ia",
+        "domaine": "Numerique et IA",
+        "portefeuille": "Numerique",
+        "titre": "Guichet numerique unique et IA encadree",
+        "resume": "Creer un point d'entree unique pour les services publics, une identite numerique securisee, encadrer l'IA comme aide a la decision humaine, durcir les sanctions sur les donnees et proteger les mineurs en ligne.",
+        "statut": "consolide",
+        "risques": [
+          "cybersecurite",
+          "fracture numerique",
+          "cout d'integration des systemes publics"
+        ]
+      },
+      {
+        "id": "cdf-justice-victimes",
+        "domaine": "Justice",
+        "portefeuille": "Justice",
+        "titre": "Justice rapide et victimes prioritaires",
+        "resume": "Construire des places de prison, imposer travail et formation en detention, reduire les delais judiciaires par budget, recrutement et dematerialisation, prioriser l'indemnisation des victimes et reformer la justice administrative.",
+        "statut": "consolide",
+        "risques": [
+          "cout carceral",
+          "delai de recrutement",
+          "capacite operationnelle"
+        ]
+      },
+      {
+        "id": "cdf-ecologie-pragmatique",
+        "domaine": "Ecologie",
+        "portefeuille": "Ecologie",
+        "titre": "Ecologie pragmatique et souverainete agricole",
+        "resume": "Faire du nucleaire le coeur de la politique energetique avec 14 EPR2, supprimer taxe carbone et subventions aux renouvelables, laisser le marche decider pour les thermiques, alleger normes agricoles et renforcer souverainete alimentaire.",
+        "statut": "consolide",
+        "risques": [
+          "opposition ecologiste",
+          "compatibilite europeenne",
+          "acceptabilite locale des infrastructures"
+        ]
+      },
+      {
+        "id": "cdf-famille-social",
+        "domaine": "Famille et social",
+        "portefeuille": "Social",
+        "titre": "Natalite, dependance et aides au travail",
+        "resume": "Mettre en place une politique nataliste, faciliter conciliation travail-famille, prolonger conge parental jusqu'aux trois ans de l'enfant avec retour au poste, renforcer maintien a domicile et rationaliser les aides sociales.",
+        "statut": "consolide",
+        "risques": [
+          "cout social",
+          "effets sur emploi",
+          "ciblage des aides"
+        ]
+      },
+      {
+        "id": "cdf-terrorisme-radicalisation",
+        "domaine": "Terrorisme et radicalisation",
+        "portefeuille": "Interieur",
+        "titre": "Anti-radicalisation et financement etranger",
+        "resume": "Renforcer surveillance, fermer lieux de culte radicaux, expulser les etrangers radicalises, traiter les fiches S les plus dangereux, interdire fonds etrangers, auditer associations et dissoudre structures radicales.",
+        "statut": "consolide",
+        "risques": [
+          "contentieux libertes publiques",
+          "pression diplomatique",
+          "definition operationnelle de la radicalisation"
+        ]
+      },
+      {
+        "id": "cdf-outre-mer",
+        "domaine": "Outre-mer",
+        "portefeuille": "Outre-mer",
+        "titre": "Outre-mer, independance choisie et economie bleue",
+        "resume": "Reconnaitre un droit a l'independance par referendum pour les territoires qui le souhaitent, supprimer l'octroi de mer, briser monopoles locaux, developper zones franches, economie bleue, formation et securite.",
+        "statut": "consolide",
+        "risques": [
+          "cohesion nationale",
+          "cout de transition",
+          "equilibres locaux"
+        ]
+      },
+      {
+        "id": "cdf-transports-infrastructures",
+        "domaine": "Transports et infrastructures",
+        "portefeuille": "Transports",
+        "titre": "Mobilites decentralisees",
+        "resume": "Renationaliser les autoroutes a l'echeance des contrats, decongestionner les metropoles par decentralisation des activites et laisser le marche arbitrer le fret.",
+        "statut": "consolide",
+        "risques": [
+          "calendrier contractuel autoroutier",
+          "effets territoriaux",
+          "investissements de mobilite"
+        ]
+      },
+      {
+        "id": "cdf-medias-liberte",
+        "domaine": "Medias et liberte d'expression",
+        "portefeuille": "Culture",
+        "titre": "Medias, liberte d'expression et responsabilite",
+        "resume": "Supprimer audiovisuel public et aides a la presse, liberer totalement la parole en ligne et renforcer juridiquement la responsabilite des journalistes.",
+        "statut": "consolide",
+        "risques": [
+          "pression mediatique",
+          "pluralisme",
+          "equilibre liberte/responsabilite"
+        ]
+      }
+    ]
+  },
+  "budget": {
+    "statut": "a_auditer",
+    "unite": "milliards_euros_par_an",
+    "synthese": {
+      "economies_recettes": 181.9,
+      "depenses_pertes": 62.3,
+      "solde_net": 119.6,
+      "objectif": "Equilibre en annee 3, debut du remboursement de la dette en annee 4",
+      "reserve_majeure": "Cout de transition vers la retraite par capitalisation estime autour de 50 MdE sur 10 ans, non integre au chiffrage central."
+    },
+    "postes": [
+      {
+        "categorie": "Reduction de l'Etat et des institutions",
+        "economies_recettes": 110.6,
+        "depenses_pertes": 0,
+        "solde": 110.6
+      },
+      {
+        "categorie": "Nouvelles depenses et investissements",
+        "economies_recettes": 0,
+        "depenses_pertes": 45.3,
+        "solde": -45.3
+      },
+      {
+        "categorie": "Impact fiscal",
+        "economies_recettes": 71.3,
+        "depenses_pertes": 17,
+        "solde": 54.3
+      }
+    ],
+    "hypotheses": [
+      "Croissance supplementaire de +1,5% par an",
+      "Recettes croissance estimees a 36 MdE en annee 3 et 48 MdE en annee 4+",
+      "Audit economistes independants requis"
+    ],
+    "points_attention": [
+      "Clarifier l'ecart entre amelioration totale, solde net et trajectoire de deficit residuel",
+      "Integrer ou isoler explicitement le cout de transition des retraites",
+      "Verifier l'effet macroeconomique des coupes et privatisations"
+    ]
+  },
+  "site_vitrine": {
+    "statut": "existant",
+    "fichier": "coeur_de_france_site.html",
+    "identite_visuelle": [
+      "bleu institutionnel",
+      "or",
+      "rappel tricolore"
+    ],
+    "sections": [
+      "manifeste",
+      "programme",
+      "budget",
+      "engagements",
+      "reforme de l'Etat",
+      "valeurs",
+      "rejoindre"
+    ],
+    "points_attention": [
+      "Harmoniser la meta-description avec la ligne de communication retenue",
+      "Verifier la coherence des chiffres budgetaires affiches avec le fichier budget"
+    ]
+  },
+  "gouvernement_fictif": {
+    "statut": "a_arbitrer",
+    "cible": "10 ministeres chapeau maximum",
+    "alerte": "Une version de travail avec 12 ministeres a ete etudiee. Revenir a 10 pour coherer avec la doctrine de simplification.",
+    "personnalites_evoquees": [
+      {
+        "role": "Premier ministre",
+        "nom": "David Lisnard"
+      },
+      {
+        "role": "Affaires etrangeres",
+        "nom": "Philippe de Villiers"
+      },
+      {
+        "role": "Territoires",
+        "nom": "Robert Menard"
+      },
+      {
+        "role": "Souverainete europeenne",
+        "nom": "Sarah Knafo"
+      },
+      {
+        "role": "Conseil strategique economique",
+        "nom": "Saade, Pouyanne, Bompard, Niel"
+      }
+    ]
+  },
+  "arbitrages_prioritaires": [
+    {
+      "id": "arb-communication",
+      "theme": "Communication",
+      "question": "Supprimer ou assumer definitivement la formule 'ni droite ni gauche'.",
+      "priorite": "haute"
+    },
+    {
+      "id": "arb-ministeres",
+      "theme": "Gouvernement",
+      "question": "Ramener les ministeres a 10 portefeuilles maximum.",
+      "priorite": "haute"
+    },
+    {
+      "id": "arb-retraites",
+      "theme": "Budget",
+      "question": "Securiser le chiffrage retraite/capitalisation et son cout de transition.",
+      "priorite": "critique"
+    },
+    {
+      "id": "arb-budget",
+      "theme": "Budget",
+      "question": "Reconciler les chiffres 135 MdE, 181,9 MdE et +119,6 MdE dans une doctrine budgetaire unique.",
+      "priorite": "critique"
+    }
+  ]
+}

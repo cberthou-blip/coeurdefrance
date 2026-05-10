@@ -1,0 +1,5 @@
+id,theme,question,priorite
+arb-communication,Communication,"Supprimer ou assumer definitivement la formule 'ni droite ni gauche'.",haute
+arb-ministeres,Gouvernement,"Ramener les ministeres a 10 portefeuilles maximum.",haute
+arb-retraites,Budget,"Securiser le chiffrage retraite/capitalisation et son cout de transition.",critique
+arb-budget,Budget,"Reconciler les chiffres 135 MdE, 181,9 MdE et +119,6 MdE dans une doctrine budgetaire unique.",critique
