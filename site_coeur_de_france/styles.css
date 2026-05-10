@@ -830,7 +830,8 @@ footer strong {
 
 @media (min-width: 620px) {
   .topbar {
-    grid-template-columns: auto 1fr auto;
+    display: flex;
+    justify-content: space-between;
     padding: 16px clamp(22px, 4vw, 56px);
   }
 
@@ -838,10 +839,12 @@ footer strong {
     display: none;
   }
 
+  .topbar.nav-open nav,
   nav {
     grid-column: auto;
     display: flex;
     justify-content: center;
+    flex: 1 1 auto;
     overflow: visible;
     max-height: none;
     padding: 0;
@@ -862,10 +865,12 @@ footer strong {
     flex-wrap: wrap;
   }
 
+  .topbar.nav-open .nav-cta,
   .nav-cta {
     width: auto;
     display: inline-flex;
     grid-column: auto;
+    flex: 0 0 auto;
     justify-content: center;
   }
 
