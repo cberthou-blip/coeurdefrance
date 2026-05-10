@@ -593,7 +593,7 @@
           <div class="section-label">11 · Appel</div>
           <h2 id="join-title">Le livre blanc est prêt à être discuté. Il attend celles et ceux qui sauront le porter.</h2>
         </div>
-        <form class="join-form" action="mailto:contact@coeurdefrance.fr" method="post" enctype="text/plain">
+        <form class="join-form" data-email="contact@coeurdefrance.fr" onsubmit="sendContribution(event)">
           <label>
             <span>Nom</span>
             <input type="text" name="nom" autocomplete="name" required>
@@ -631,5 +631,23 @@
     </div>
     <a href="#accueil">Retour en haut</a>
   </footer>
+  <script>
+    function sendContribution(event) {
+      event.preventDefault();
+      const form = event.currentTarget;
+      const data = new FormData(form);
+      const email = form.dataset.email;
+      const subject = "Contribution à Cœur de France";
+      const body = [
+        `Nom : ${data.get("nom") || ""}`,
+        `Email : ${data.get("email") || ""}`,
+        `Contribution : ${data.get("contribution") || ""}`,
+        "",
+        data.get("message") || ""
+      ].join("\n");
+
+      window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    }
+  </script>
 </body>
 </html>
