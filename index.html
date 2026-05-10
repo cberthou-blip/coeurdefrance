@@ -93,7 +93,12 @@
       <span class="brand-mark" aria-hidden="true"></span>
       <span>Cœur de France</span>
     </a>
-    <nav aria-label="Sections">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Ouvrir le menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="primary-nav" aria-label="Sections">
       <a href="#doctrine">Doctrine</a>
       <a href="#programme">Programme</a>
       <a href="#budget">Budget</a>
@@ -109,11 +114,10 @@
       <div class="hero-shade"></div>
       <div class="hero-inner">
         <p class="kicker">Projet politique libre · sans parti · sans affiliation</p>
-        <h1 id="hero-title">Un livre blanc pour remettre l'État au service du pays.</h1>
+        <h1 id="hero-title">Remettre l'État au service du pays.</h1>
         <p class="hero-copy">
-          Cœur de France est une base politique libre, ouverte à l'audit et à l'incarnation.
-          Elle rassemble une doctrine, un programme et un chiffrage pour celles et ceux qui
-          refusent l'impuissance publique sans rejoindre un appareil partisan.
+          Un livre blanc politique libre, ouvert à l'audit, pour celles et ceux qui refusent
+          l'impuissance publique sans rejoindre un appareil partisan.
         </p>
         <div class="hero-actions" aria-label="Actions principales">
           <a class="button primary" href="#programme">Explorer le programme</a>
@@ -632,6 +636,26 @@
     <a href="#accueil">Retour en haut</a>
   </footer>
   <script>
+    const topbar = document.querySelector(".topbar");
+    const navToggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelectorAll("#primary-nav a, .nav-cta");
+
+    if (navToggle && topbar) {
+      navToggle.addEventListener("click", () => {
+        const isOpen = topbar.classList.toggle("nav-open");
+        navToggle.setAttribute("aria-expanded", String(isOpen));
+        navToggle.setAttribute("aria-label", isOpen ? "Fermer le menu" : "Ouvrir le menu");
+      });
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          topbar.classList.remove("nav-open");
+          navToggle.setAttribute("aria-expanded", "false");
+          navToggle.setAttribute("aria-label", "Ouvrir le menu");
+        });
+      });
+    }
+
     function sendContribution(event) {
       event.preventDefault();
       const form = event.currentTarget;
